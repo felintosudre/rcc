@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+puts "--- Begin Seed ---"
+teams = Team.create!(
+    [
+        {team: 'Participante'},
+        {team: 'Cozinha'},
+        {team: 'Sentinelas'}
+    ]
+    )
+puts "--- End Seed ---"
